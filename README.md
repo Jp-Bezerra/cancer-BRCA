@@ -63,12 +63,6 @@ A partir das vias mais significativas, foi construída uma rede de interação p
 | CENPI | 43 |
 | PLK1 | 43 |
 
-<p align="center">
-  <img src="./assets/ppi_network.png" alt="Rede de interação proteína-proteína" width="600"/>
-  <br/>
-  <em>Rede PPI das proteínas nas vias mais enriquecidas — o tamanho do nó reflete o grau de conexão.</em>
-</p>
-
 Todos esses genes/proteínas reforçam a assinatura proliferativa característica do tumor.
 
 ## Estrutura do repositório
@@ -86,7 +80,7 @@ cancer-BRCA/
     └── rede_interativa_ppi.html             # Rede PPI interativa
 ```
 
-> A matriz de contagens bruta (`TCGA-BRCA.star_counts.tsv.gz`) não está incluída no repositório por tamanho — veja [Fonte dos dados](#-fonte-dos-dados) para baixá-la.
+> A matriz de contagens bruta (`TCGA-BRCA.star_counts.tsv.gz`) não está incluída no repositório por tamanho.
 
 ## Tecnologias e bibliotecas
 
@@ -120,4 +114,4 @@ Os dados de contagens de RNA-Seq (STAR Counts) de pacientes com câncer de mama 
 
 ---
 
-<sub>Projeto acadêmico/pessoal de bioinformática. Os resultados aqui apresentados têm fins exploratórios e educacionais, não devendo ser interpretados como validação clínica ou indicação de uso terapêutico.</sub>
+<sub>Projeto acadêmico/pessoal de bioinformática. Os resultados aqui apresentados têm fins exploratórios, não devendo ser interpretados como validação clínica ou indicação de uso terapêutico.</sub>
